@@ -3,12 +3,12 @@ package com.alessandroborelli.infiniteviewpagermultiplepages;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentStatePagerAdapter;
 
 /**
  * Created by alessandroborelli on 30/04/15.
  */
-public class MPagerAdapter extends FragmentPagerAdapter {
+public class MPagerAdapter extends FragmentStatePagerAdapter {
 
 
     public static int ITEM_MAX_NUM = 10;
